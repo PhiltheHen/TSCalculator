@@ -104,16 +104,8 @@
 		3A375CE11BD679E5008549B4 /* TSCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				3A375CE51BD679E5008549B4 /* AppDelegate.h */,
-				3A375CE61BD679E5008549B4 /* AppDelegate.m */,
-				3A375D181BD67A53008549B4 /* ViewController.h */,
-				3A375D191BD67A53008549B4 /* ViewController.m */,
-				3A375CEB1BD679E5008549B4 /* Main.storyboard */,
-				3A375CEE1BD679E5008549B4 /* Assets.xcassets */,
-				3A375D151BD67A2E008549B4 /* CalculatorBrain.h */,
-				3A375D161BD67A2E008549B4 /* CalculatorBrain.m */,
-				3A375CF01BD679E5008549B4 /* LaunchScreen.storyboard */,
-				3A375CF31BD679E5008549B4 /* Info.plist */,
+				3A375D1B1BD67C90008549B4 /* ViewControllers */,
+				3A375D1C1BD67C97008549B4 /* Models */,
 				3A375CE21BD679E5008549B4 /* Supporting Files */,
 			);
 			path = TSCalculator;
@@ -122,6 +114,10 @@
 		3A375CE21BD679E5008549B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A375CF31BD679E5008549B4 /* Info.plist */,
+				3A375CEE1BD679E5008549B4 /* Assets.xcassets */,
+				3A375CE51BD679E5008549B4 /* AppDelegate.h */,
+				3A375CE61BD679E5008549B4 /* AppDelegate.m */,
 				3A375CE31BD679E5008549B4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +139,26 @@
 				3A375D091BD679E5008549B4 /* Info.plist */,
 			);
 			path = TSCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		3A375D1B1BD67C90008549B4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A375D181BD67A53008549B4 /* ViewController.h */,
+				3A375D191BD67A53008549B4 /* ViewController.m */,
+				3A375CEB1BD679E5008549B4 /* Main.storyboard */,
+				3A375CF01BD679E5008549B4 /* LaunchScreen.storyboard */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3A375D1C1BD67C97008549B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A375D151BD67A2E008549B4 /* CalculatorBrain.h */,
+				3A375D161BD67A2E008549B4 /* CalculatorBrain.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
