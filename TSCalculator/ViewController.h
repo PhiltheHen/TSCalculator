@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  TSCalculator
+//  Multiply
 //
-//  Created by Philip Henson on 10/20/15.
+//  Created by Philip Henson on 9/28/15.
 //  Copyright © 2015 Phil Henson. All rights reserved.
 //
 

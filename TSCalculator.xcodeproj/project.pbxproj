@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		3A375CE41BD679E5008549B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A375CE31BD679E5008549B4 /* main.m */; };
 		3A375CE71BD679E5008549B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A375CE61BD679E5008549B4 /* AppDelegate.m */; };
-		3A375CEA1BD679E5008549B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A375CE91BD679E5008549B4 /* ViewController.m */; };
 		3A375CED1BD679E5008549B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A375CEB1BD679E5008549B4 /* Main.storyboard */; };
 		3A375CEF1BD679E5008549B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A375CEE1BD679E5008549B4 /* Assets.xcassets */; };
 		3A375CF21BD679E5008549B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A375CF01BD679E5008549B4 /* LaunchScreen.storyboard */; };
 		3A375CFD1BD679E5008549B4 /* TSCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A375CFC1BD679E5008549B4 /* TSCalculatorTests.m */; };
 		3A375D081BD679E5008549B4 /* TSCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A375D071BD679E5008549B4 /* TSCalculatorUITests.m */; };
+		3A375D171BD67A2E008549B4 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A375D161BD67A2E008549B4 /* CalculatorBrain.m */; settings = {ASSET_TAGS = (); }; };
+		3A375D1A1BD67A53008549B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A375D191BD67A53008549B4 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		3A375CE31BD679E5008549B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A375CE51BD679E5008549B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A375CE61BD679E5008549B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3A375CE81BD679E5008549B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3A375CE91BD679E5008549B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3A375CEC1BD679E5008549B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A375CEE1BD679E5008549B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A375CF11BD679E5008549B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		3A375D031BD679E5008549B4 /* TSCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A375D071BD679E5008549B4 /* TSCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSCalculatorUITests.m; sourceTree = "<group>"; };
 		3A375D091BD679E5008549B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A375D151BD67A2E008549B4 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		3A375D161BD67A2E008549B4 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		3A375D181BD67A53008549B4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A375D191BD67A53008549B4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +106,12 @@
 			children = (
 				3A375CE51BD679E5008549B4 /* AppDelegate.h */,
 				3A375CE61BD679E5008549B4 /* AppDelegate.m */,
-				3A375CE81BD679E5008549B4 /* ViewController.h */,
-				3A375CE91BD679E5008549B4 /* ViewController.m */,
+				3A375D181BD67A53008549B4 /* ViewController.h */,
+				3A375D191BD67A53008549B4 /* ViewController.m */,
 				3A375CEB1BD679E5008549B4 /* Main.storyboard */,
 				3A375CEE1BD679E5008549B4 /* Assets.xcassets */,
+				3A375D151BD67A2E008549B4 /* CalculatorBrain.h */,
+				3A375D161BD67A2E008549B4 /* CalculatorBrain.m */,
 				3A375CF01BD679E5008549B4 /* LaunchScreen.storyboard */,
 				3A375CF31BD679E5008549B4 /* Info.plist */,
 				3A375CE21BD679E5008549B4 /* Supporting Files */,
@@ -270,8 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A375CEA1BD679E5008549B4 /* ViewController.m in Sources */,
 				3A375CE71BD679E5008549B4 /* AppDelegate.m in Sources */,
+				3A375D171BD67A2E008549B4 /* CalculatorBrain.m in Sources */,
+				3A375D1A1BD67A53008549B4 /* ViewController.m in Sources */,
 				3A375CE41BD679E5008549B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.henson.TSCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.henson.TSCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
